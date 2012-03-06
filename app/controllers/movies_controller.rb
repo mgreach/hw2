@@ -12,7 +12,7 @@ class MoviesController < ApplicationController
       @release_class = ""
       if sort == "title"
         @title_class = "hilite"
-      elsif
+      elsif sort == "release_date"
         @release_class = "hilite"
       end
       @movies = Movie.order(sort)
