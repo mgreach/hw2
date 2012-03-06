@@ -9,7 +9,15 @@ class MoviesController < ApplicationController
   def index
       @all_ratings = ['G','PG','PG-13','R']
       ratings = params[:ratings]
-      ratings==nil ? keys=@all_ratings : keys=ratings.keys
+      @saved_rating = {}
+     if ratings==nil
+       keys=@all_ratings
+       @saved_rating = {}
+       else
+         keys=ratings.keys
+         ratings.each {|key,value| @saved_rating["ratings[" + key +"]"] = 1 }
+
+     end
       @checked = {}
       @all_ratings.each { |rate| keys.index(rate) ? @checked[rate] = true : @checked[rate] = false}
       sort = params[:order]

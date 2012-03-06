@@ -29,7 +29,7 @@
       <file leaf-file-name="movies_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="461" selection-end="461" vertical-scroll-proportion="0.37428024">
+            <state line="17" column="65" selection-start="532" selection-end="532" vertical-scroll-proportion="0.31669867">
               <folding />
             </state>
           </provider>
@@ -38,7 +38,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="46" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+            <state line="9" column="70" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -730,14 +730,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="46" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+        <state line="9" column="70" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="461" selection-end="461" vertical-scroll-proportion="0.37428024">
+        <state line="17" column="65" selection-start="532" selection-end="532" vertical-scroll-proportion="0.31669867">
           <folding />
         </state>
       </provider>
